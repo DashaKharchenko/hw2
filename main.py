@@ -7,4 +7,8 @@ class Student:
       self.gladness += 20
       self.progress -= 10
       print('Study time')
-   
+    def chill(self):
+      self.gladness += 35
+      self.progress -= 8
+      print('Chill time')
+  
